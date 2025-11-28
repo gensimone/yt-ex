@@ -1,5 +1,5 @@
 [project]
-name = "ytex"
+name = "yt-ex"
 version = "0.0.1"
 description = "Scripts for extracting data provided by Google's private InnerTube API. "
 authors = [
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-yt-exp = "ytex.yt_expl:main"
+yt-exp = "yt_ex.yt_exp:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
