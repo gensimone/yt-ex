@@ -1,7 +1,5 @@
 # yt-ex (YouTube Extractors)
 
----
-
 ## Introduction
 
 This repository contains scripts that, given a query, retrieve various information (such as
@@ -37,8 +35,6 @@ This command will download the entire discography of "Tom Waits".
 
 ## Installation
 Code is hosted on PyPi so you can install it using pip or some other variant like pipx.
-
 ```sh
 pip install yt-ex
-```
 ```
