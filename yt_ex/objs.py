@@ -10,6 +10,6 @@ class Playlist:
 
 
 @dataclass
-class Song:
+class Video:
     title: str
     video_id: str

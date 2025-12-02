@@ -1,7 +1,7 @@
-from .objs import Song, Playlist
+from .objs import Video, Playlist
 
 
-def get_songs(data: dict) -> list[Song]:
+def get_videos(data: dict) -> list[Video]:
     videos: list[Song] = []
     for item in data["contents"]["singleColumnMusicWatchNextResultsRenderer"][
         "tabbedRenderer"]["watchNextTabbedResultsRenderer"]["tabs"][0][
